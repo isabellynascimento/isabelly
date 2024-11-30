@@ -1,0 +1,160 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A4054C;
+    padding: 10px 0;
+    height: 50px;
+    margin-bottom: 45px;
+}
+header h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #A4054C; /* Azul mais claro */
+}
+
+.missao{
+    text-align: center;
+}
+
+.missaoevisao {
+    display: flex;
+    justify-content: space-around;
+}
+
+    section h1{
+    text-align: center;
+}
+.equi-principal img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+}.contato {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 1px solid #A4054C;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contato h1 {
+    color: #A4054C;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container label {
+    text-align: left;
+    color: #A4054C;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 97%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #A4054C;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    border-color: #A4054C;
+}
+
+.form-container button {
+    background-color: #A4054C;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #A4054C;
+}
+
+.rodape {
+    background-color: #A4054C;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.container-rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.rodape p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.rodape-nav {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.rodape-nav a:hover {
+    color: #A4054C;
+}
+
+.creditos {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f0f8ff;
+}
+
+.titulo-equipe {
+    color:#A4054C;
+    text-align: center;
+}
+    
